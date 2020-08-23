@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="learnant" default="echohelloworld" basedir=".">
+
+    <target name="echohelloworld">
+        <echo>Hello World!!</echo>
+    </target>
+
+ <target name="shtarget1">
+        <exec executable="echo">
+            <arg value="NEPE"/>
+        </exec>
+    </target>
+
+    <target name="shtarget2">
+        <exec executable="cmd">
+            <arg value="/C"/>
+            <arg value="echo"/>
+            <arg value="NEPE"/>
+        </exec>
+    </target>
+
+</project>
